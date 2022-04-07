@@ -1,5 +1,5 @@
 FROM adoptopenjdk/openjdk8:alpine-jre
-ARG STRUCTURIZR_VERSION=1.11.0
+ARG STRUCTURIZR_VERSION=1.19.0
 ARG PLANTUML_VERSION=1.2021.7
 WORKDIR /structurizr-to-png
 COPY structurizr-to-png.sh .
